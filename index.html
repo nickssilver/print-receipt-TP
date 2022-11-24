@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <title>Receipt sample</title>
+    </head>
+    <body>
+        <div class="ticket">
+            <img src="./logo.png" alt="Logo">
+            <p class="centered">RECEIPT SAMPLE
+                <br>info@pronic.co.ke
+                <br>Tom Mboya Street</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="quantity">Q.</th>
+                        <th class="description">Description</th>
+                        <th class="price">Ksh</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="quantity">1.00</td>
+                        <td class="descriptin">Headphones JBL</td>
+                        <td class="price">Ksh15,000.00</td>
+                    </tr>
+                    <tr>
+                        <td class="quantity">2.00</td>
+                        <td class="description">Wireless Mouse </td>
+                        <td class="price">Ksh3,500.00</td>
+                    </tr>
+                    <tr>
+                        <td class="quantity">1.00</td>
+                        <td class="description">STICKER PACK</td>
+                        <td class="price">Ksh100.00</td>
+                    </tr>
+                    <tr>
+                        <td class="quantity"></td>
+                        <td class="description">TOTAL</td>
+                        <td class="price">Ksh18,600.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="centered">Thanks for your purchase!
+                <br>www.pronic.co.ke</p>
+        </div>
+        <button id="btnPrint" class="hidden-print">Print</button>
+        <script src="script.js"></script>
+    </body>
+</html>
